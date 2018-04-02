@@ -34,9 +34,9 @@ body {
 }
 
 .navItem {
+  display: inline-block;
   font-family: Helvetica;
   font-size: 22px;
-  font-weight: bold;
   padding: 20px 10px;
 }
 
