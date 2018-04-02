@@ -77,8 +77,9 @@ h1, h2, h3, h4 {
 
 #tea {
   width: 1000px;
+  height: 700px;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 .teaList {
@@ -104,3 +105,49 @@ h1, h2, h3, h4 {
   padding-top: 10px;
 }
 /*END BLOCK TEA */
+
+/*BLOCK LOCATIONS*/
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 80px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.blockLoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 280px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+/*END BLOCK LOCATIONS*/
+
+/*BLOCK CONTACTS*/
+
+#contacts {
+  height: 200px;
+  text-align: center;
+}
+/*END BLOCK CONTACTS*/
+
+/*FOOTER*/
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+/*END FOOTER*/
